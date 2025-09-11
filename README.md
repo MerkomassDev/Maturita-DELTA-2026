@@ -39,4 +39,3 @@ $ pandoc 00-vzor.md -o vzor.pdf
 
 - [Overleaf - Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes/)
 - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX/)
-- [LaTeX Math Symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols/)
