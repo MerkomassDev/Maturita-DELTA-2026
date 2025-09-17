@@ -16,7 +16,7 @@ Jistě, zde je přehledně zformátovaný tahák na základní konfiguraci Cisco
 *   **Vytvoření lokálního uživatele:** `username <jmeno> password <heslo>`
 *   **Nastavení domény (nutné pro klíč):** `ip domain-name <mojedomena.local>`
 *   **Vygenerování šifrovacího klíče:** `crypto key generate rsa`
-    *   Poté zadejte délku klíče, např. `1024`.
+    *   Poté zadejte délku klíče, pro SSH v2 to je `1024`.
 *   **Vynucení moderní verze SSH:** `ip ssh version 2`
 
 ***
