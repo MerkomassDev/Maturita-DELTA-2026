@@ -1,3 +1,4 @@
+
 # Random uryvky
 
 *   **UNF**: Nenormalizovaná databáze.
