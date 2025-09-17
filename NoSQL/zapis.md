@@ -40,3 +40,18 @@
 *   musí být konzistentní
 *   větší - hůře komprimovatelné
 *   Pracuje pouze se strukturovanými daty
+
+---
+
+## CAP theorem
+
+*   **Consistency (konzistence)**: Všechny uzly vidí stejná data ve stejný čas.
+*   **Availability (dostupnost)**: Každý požadavek obdrží odpověď (úspěšnou nebo neúspěšnou).
+*   **Partition tolerance (odolnost vůči dělení)**: Systém pracuje i při ztrátě komunikace mezi uzly.
+*   Systém může garantovat pouze dvě ze tří vlastností současně.
+
+**Možné kombinace garancí:**
+
+*   **CA (Konzistence a dostupnost)**: SQL databáze; striktní synchronizace, vyžaduje nepřerušenou komunikaci mezi uzly, obětuje P.
+*   **CP (Konzistence a odolnost k přerušení)**: Např. BigTable, HBase, MongoDB, Redis; striktní konzistence, obětuje A v případě dělení sítě.
+*   **AP (Dostupnost a odolnost k přerušení)**: Např. Cassandra, Dynamo, CouchDB; vysoká dostupnost i při dělení sítě, obětuje C (může vracet starší data).
